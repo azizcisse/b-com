@@ -1,0 +1,20 @@
+2022-05-11T12:27:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\bcom\wp-content\plugins\woocommerce\packages\woocommerce-admin\src-internal\Admin\Schedulers\CustomersScheduler.php à la ligne 8
+
+2022-05-11T12:27:11+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\bcom\wp-content\plugins\wpforms-lite\src\Tasks\Actions\FormsLocatorScanTask.php à la ligne 23
+
+2022-05-11T12:36:09+00:00 CRITICAL Maximum execution time of 120 seconds exceeded dans C:\xampp\htdocs\bcom\wp-includes\template-loader.php à la ligne 7
+
+2022-05-11T12:36:15+00:00 CRITICAL Uncaught Exception: Invalid data: {"data":["Array","Array"],"element":"Array"} in C:\xampp\htdocs\bcom\wp-content\plugins\elementor\core\base\document.php:878
+Stack trace:
+#0 C:\xampp\htdocs\bcom\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(122): Elementor\Core\Base\Document->get_elements_raw_data(Array, true)
+#1 C:\xampp\htdocs\bcom\wp-content\plugins\astra-sites\inc\importers\batch-processing\class-astra-sites-batch-processing-elementor.php(66): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import_single_post(8)
+#2 C:\xampp\htdocs\bcom\wp-content\plugins\astra-sites\inc\importers\batch-processing\helpers\class-wp-background-process-astra.php(41): Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor->import()
+#3 C:\xampp\htdocs\bcom\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(301): WP_Background_Process_Astra->task(Object(Elementor\TemplateLibrary\Astra_Sites_Batch_Processing_Elementor))
+#4 C:\xampp\htdocs\bcom\wp-content\plugins\woocommerce\includes\libraries\wp-background-process.php(447): WP_Background_Process->handle()
+#5 C:\xampp\htdocs\bcom\wp-includes\class-wp-hook.php(307): WP_Background_Process->handle_cron_healthcheck()
+#6 C:\xampp\htdocs\bcom\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\bcom\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\bcom\wp-cron.php(138): do_action_ref_array('wp_image_proces...', Array)
+#9 {main}
+  thrown dans C:\xampp\htdocs\bcom\wp-content\plugins\elementor\core\base\document.php à la ligne 878
+
